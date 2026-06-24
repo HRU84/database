@@ -1,7 +1,7 @@
 name: CI/CD DB — Gestor de Alumnos EKS
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch: {}
 env:
   AWS_REGION: us-east-1
